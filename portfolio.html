@@ -1,0 +1,176 @@
+<!DOCTYPE html> 
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <Title> Guénolé DUCROT </Title>
+    <link href="styles.css" rel="stylesheet"/>
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header> 
+        
+        <img class="logo"
+            src="logo.jpg"
+            alt="logo du site web"
+        />
+        <h1> Guénolé DUCROT </h1>
+        <nav>
+        <a href="#about">a propos <br/> </a>
+        <a href="#contact">me&nbsp;contacter</a>
+        <button id="mode-sombre" type="button">Mode sombre</button>
+        </nav>
+    
+    </header>
+
+<main>
+    <section>
+        <h2> MON CV </h2>
+        <h3> La frise de ma scolarité :</h3>
+        <div class="tab"> 
+        <table border="3" class="frise">
+           
+            <tbody>
+                <tr>
+                    <th> Lycee la martiniere duchere (2019-2022)</th>
+                    <th> MIASHS Université Lyon 2 (2022-2024)</th>
+                    <th> SUPINFO (2024-)</th>
+                </tr>
+            </tbody>
+           
+        </table>
+    </div>
+    <div class="xp">
+        <h3> Mes experiences </h3>
+        <ol start="2023"> 
+            <li>Equipier polyvanlent chez Mcdonald</li>
+            <li> Equipier polyvalent chez Lidl</li>
+    </div>
+
+        </ol>
+        <div class="tableau">
+        <table class="competences">
+            <thead>
+                <tr>
+
+                    <th colspan ="2">Mes competences </th>
+                </tr>
+                <tr>
+                    <th> softskill</th>  
+                    <th> hardskill</th> 
+                </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>
+                    <ul>
+                        <li>
+                            Lorem ipsum dolor sit amet. 
+                        </li>
+                        <li>
+                            Lorem ipsum dolor sit amet.  
+                        </li>
+                        <li>
+                            Lorem ipsum dolor sit amet. 
+                        </li>
+                        <li>
+                            Lorem ipsum dolor sit amet. 
+                        </li>
+                    </ul>
+                 </td>
+                <td>
+                    <ul>
+                        <li>
+                            Anglais
+                        </li>
+                        <li>
+                            Lorem ipsum dolor sit amet.    
+                        </li>
+                        <li>
+                            Lorem ipsum dolor sit amet.    
+                        </li>
+                        <li>
+                            Lorem ipsum dolor sit amet.     
+                        </li>
+                    </ul>
+                </td>
+
+            </tr>
+
+            </tbody>
+
+
+
+                </table>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="recents">
+        <div class="recent">
+        <h3> mes articles recents : </h3>
+        <div class="wrapper" > 
+
+        <a class="A1" href="blog/Article1.html" > <img src="plagecontis.jpg" height=" 150" alt="lien vers l'article 1">Les merveilles de contis</a>
+        <a class="A1" href="blog/Article2.html">  <img src="pingu.jpg" height="150" alt="lien vers l'article 2">Les pingouins du nord</a> 
+        <a class="A1" href="blog/Article3.html"> <img src="nepal.jpg" height="150" alt="lien vers l'article 3">Un voyage au nepal</a> 
+        </div>
+    </section>
+
+    <section id="about">
+    <h2> A propos </h2>
+        <p> Je m'appelle Guenole Ducrot, mes centres d'interet sont divers et multiples. vous pourrez les decouvrir ici.</p>
+        <p> mes informations de contact : </p> 
+        <p> mail :
+        <a href="mailto:guenole.ducrot@supinfo.com">Guenole.ducrot@supinfo.com</a>
+        </p>
+        <p> telephone :
+        <a href="tel:+33640182001">06 40 18 20 01</a>    
+        </p>
+        <p> localisation  : <br/>  SUPINFO 85 Bd Marius Vivier Merle 69003 LYON</p>
+
+
+    </section>
+   
+
+    <section id="contact">
+    
+        <div class="contact">
+        <h2> formulaire de contact</h2>
+        <p> Vous voulez me contacter ? rien de plus simple</p>
+        
+           
+        <form action="https://api.web3forms.com/submit" method= post>
+            <input type="hidden" name="access_key" value="4c76eb7f-ccad-40cd-9ce0-1a1abc35e559">
+            
+            <label for="Nom">Votre nom <br/> </label>  
+            <input type="text" name="Nom" required/> <br/>
+            
+            <label for="email">Votre Email <br/> </label>
+            <input type="email" name="email" required/> <br/>
+            
+            <label for="telephone">Numero de telephone <br/> </label>
+            <input type="number" name="telephone" /> <br/>
+
+            <label for="message">veuillez inserer votre message <br/> </label>
+            <textarea name="message" required></textarea> <br/>
+            
+            <label for="consent">Vous accteptez d'etre recontacté</label>
+            <input type="checkbox" name="consent" required class="zoom-checkbox"/> <br/> 
+            
+            <button type="submit"> Envoyer</button>  
+            </form>
+        </div>
+    </section>
+</main>
+    <footer>
+    <a href="#"> retour à l'acceuil</a>
+    </footer>
+</body>
+</html>
